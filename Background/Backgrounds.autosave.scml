@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r4.1">
+    <folder id="0" name="Lunar Night/Mountains">
+        <file id="0" name="Lunar Night/Mountains/Lunar_Night_mountains-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="Lunar Night/Sky">
+        <file id="0" name="Lunar Night/Sky/Lunar_Night_sky-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="Lunar Night/Stars">
+        <file id="0" name="Lunar Night/Stars/Lunar_Night_stars_1-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3" name="Lunar Night/Comets">
+        <file id="0" name="Lunar Night/Comets/Lunar_Night_comet_pup.png" width="542" height="244" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Lunar Night/Comets/Lunar_Night_comet_down.png" width="523" height="309" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Lunar Night/Comets/Lunar_Night_comet_up.png" width="526" height="301" pivot_x="1" pivot_y="0"/>
+        <file id="3" name="Lunar Night/Comets/Lunar_Night_comet_str.png" width="549" height="188" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Lunar Night/Comets/Lunar_Night_comet_sky.png" width="460" height="415" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Lunar Night/Comets/Lunar_Night_comet_pd.png" width="543" height="239" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="4" name="Dark Abyss/Background">
+        <file id="0" name="Dark Abyss/Background/The Dark Abyss_background-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="5" name="Dark Abyss">
+        <file id="0" name="Dark Abyss/The Dark Abyss-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="6" name="Desolate Oasis">
+        <file id="0" name="Desolate Oasis/desolate oasis-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="7" name="Desolate Oasis/Symbols">
+        <file id="0" name="Desolate Oasis/Symbols/symbols1.png" width="1215" height="558" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Desolate Oasis/Symbols/symbols2.png" width="242" height="248" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="Desolate Oasis/Symbols/symbols1-01.png" width="8000" height="4500" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Desolate Oasis/Symbols/symbols3.png" width="180" height="176" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="8" name="Haunted isle/Background">
+        <file id="0" name="Haunted isle/Background/The Haunted Isle_background-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Haunted isle/Background/The Haunted Isle_trees-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Haunted isle/Background/The Haunted Isle_sky-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Haunted isle/Background/The Haunted Isle_outline-01.png" width="4000" height="2250" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="9" name="Haunted isle/Fog">
+        <file id="0" name="Haunted isle/Fog/The Haunted Isle_fog.png" width="4315" height="1562" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Haunted isle/Fog/symbol.png" width="75" height="106" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Haunted isle/Fog/fog2.png" width="4878" height="1197" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Lunar_Night">
+        <animation id="0" name="Lunar_Night_1" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Lunar_Night_mountains-01">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1900.428571" y="1283.428571" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Lunar_Night_sky-01">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-1900.492611" y="1284.236453" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Lunar_Night_stars_1-01">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-1890.47619" y="1279.365079" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Lunar_Night_Comet_1" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Lunar_Night_mountains-01">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1900.428571" y="1283.428571" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Lunar_Night_sky-01">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-1900.492611" y="1284.236453" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Lunar_Night_stars_1-01">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-1890.47619" y="1279.365079" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Lunar_Night_comet_pup">
+                <key id="0">
+                    <object folder="3" file="0" x="1788.354978" y="572.597402" angle="0"/>
+                </key>
+                <key id="1" time="1000" spin="-1">
+                    <object folder="3" file="0" x="-2411.645022" y="371.406926" angle="19.518824"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Lunar_Night_Comet_2" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="999">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Lunar_Night_mountains-01">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1900.428571" y="1283.428571" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Lunar_Night_sky-01">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-1900.492611" y="1284.236453" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Lunar_Night_stars_1-01">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-1890.47619" y="1279.365079" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Lunar_Night_comet_sky">
+                <key id="0" spin="0">
+                    <object folder="3" file="4" x="983.766234" y="1656.493507" angle="348.778864"/>
+                </key>
+                <key id="1" time="999" spin="0">
+                    <object folder="3" file="4" x="-2201.948052" y="177.922078" angle="348.778864" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Lunar_Night_Comet_3" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="1000">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="3" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="0" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="2" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Lunar_Night_mountains-01">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-1900.428571" y="1283.428571" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Lunar_Night_sky-01">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-1900.492611" y="1284.236453" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Lunar_Night_stars_1-01">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-1890.47619" y="1279.365079" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Lunar_Night_comet_sky">
+                <key id="0" spin="0">
+                    <object folder="3" file="4" x="-1041.233766" y="1031.493507" angle="104.903525"/>
+                </key>
+                <key id="1" time="1000" spin="0">
+                    <object folder="3" file="4" x="273.766234" y="-136.006493" angle="104.903525" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="Desolate Oasis">
+        <animation id="0" name="Desolate_Oasis_1" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="desolate oasis-01">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="-1975" y="1181.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="symbols1">
+                <key id="0" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="symbols2">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="symbols3">
+                <key id="0" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Desolate_Oasis_2" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="desolate oasis-01">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="-1975" y="1181.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="symbols1">
+                <key id="0" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="symbols2">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="symbols3">
+                <key id="0" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Desolate_Oasis_3" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="desolate oasis-01">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="-1975" y="1181.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="symbols1">
+                <key id="0" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="symbols2">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="symbols3">
+                <key id="0" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0" a="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Desolate_Oasis_4" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="desolate oasis-01">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="-1975" y="1181.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="symbols1">
+                <key id="0" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="symbols2">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="symbols3">
+                <key id="0" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Desolate_Oasis_5" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="desolate oasis-01">
+                <key id="0" spin="0">
+                    <object folder="6" file="0" x="-1975" y="1181.25" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="symbols1">
+                <key id="0" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="0" x="-582.352941" y="135.294118" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="symbols2">
+                <key id="0" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="1" x="1064.705882" y="-323.529412" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="symbols3">
+                <key id="0" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0" a="0"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="7" file="3" x="-1019.117647" y="-378.921569" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="2" name="Haunted isle">
+        <animation id="0" name="Haunted_isle_1" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="The Haunted Isle_background-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="0" x="-1918" y="1462.921572" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="The Haunted Isle_trees-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="1" x="-1918" y="1462.921575" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="The Haunted Isle_sky-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="2" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="The Haunted Isle_outline-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="3" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="fog2">
+                <key id="0" spin="0">
+                    <object folder="9" file="0" x="-2860.837656" y="1600" angle="0" scale_x="1.401611"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Haunted_isle_2" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="499">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="1" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="5" key="1" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="The Haunted Isle_background-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="0" x="-1918" y="1462.921572" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="The Haunted Isle_trees-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="1" x="-1918" y="1462.921575" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="The Haunted Isle_sky-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="2" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="The Haunted Isle_outline-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="3" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="fog2">
+                <key id="0" spin="0">
+                    <object folder="9" file="0" x="-2860.837656" y="1600" angle="0" scale_x="1.401611"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="symbol">
+                <key id="0" spin="0">
+                    <object folder="9" file="1" x="17.435897" y="-232.820513" angle="0" a="0"/>
+                </key>
+                <key id="1" time="499" spin="0">
+                    <object folder="9" file="1" x="17.435897" y="-232.820513" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Haunted_isle_3" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="5" key="0" z_index="4"/>
+                    <object_ref id="5" timeline="1" key="0" z_index="5"/>
+                </key>
+                <key id="1" time="501">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="4" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="5" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="1" key="0" z_index="5"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="The Haunted Isle_background-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="0" x="-1918" y="1462.921572" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="The Haunted Isle_trees-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="1" x="-1918" y="1462.921575" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="The Haunted Isle_sky-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="2" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="The Haunted Isle_outline-01">
+                <key id="0" spin="0">
+                    <object folder="8" file="3" x="-1918" y="1462.92157" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="fog2">
+                <key id="0" spin="0">
+                    <object folder="9" file="0" x="-2860.837656" y="1600" angle="0" scale_x="1.401611"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="fog2_000">
+                <key id="0" spin="0">
+                    <object folder="9" file="2" x="-2926.651326" y="317.775839" angle="0" scale_x="1.242803" scale_y="0.811959" a="0"/>
+                </key>
+                <key id="1" time="501" spin="0">
+                    <object folder="9" file="2" x="-3144.800537" y="317.775839" angle="0" scale_x="1.308018" scale_y="0.811959" a="0.44643"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
